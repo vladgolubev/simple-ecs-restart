@@ -14,6 +14,7 @@
   "repository": "vladgolubev/simple-ecs-restart",
   "license": "MIT",
   "dependencies": {
+    "aws-arn-parser": "^1.0.0",
     "aws-sdk": "^2.34.0",
     "bluebird": "^3.5.0"
   },

@@ -163,6 +163,10 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+aws-arn-parser@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/aws-arn-parser/-/aws-arn-parser-1.0.0.tgz#647be030c84f1f8dff9c96d9d8fa6034869e84a2"
+
 aws-sdk-mock@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/aws-sdk-mock/-/aws-sdk-mock-1.6.1.tgz#79dce665a8295f76fde7afa7b4a6ca03e1afaa62"
