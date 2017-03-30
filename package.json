@@ -10,8 +10,9 @@
     "prepublish": "npm run build",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Vlad Holubiev",
+  "repository": "vladgolubev/simple-ecs-restart",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-jest": "^19.0.0",
