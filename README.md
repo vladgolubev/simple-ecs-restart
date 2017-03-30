@@ -2,7 +2,7 @@
 
 ## Features
 
-This module contains logic for CLI: [simple-ecs-restart-cli](https://github.com/vladgolubev/simple-ecs-restart)
+This module contains logic for CLI: [simple-ecs-restart-cli](https://github.com/vladgolubev/simple-ecs-restart-cli)
 
 It has serious trade-offs. This is considered for local development only.
 
