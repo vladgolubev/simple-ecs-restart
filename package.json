@@ -14,7 +14,8 @@
   "repository": "vladgolubev/simple-ecs-restart",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.34.0"
+    "aws-sdk": "^2.34.0",
+    "bluebird": "^3.5.0"
   },
   "devDependencies": {
     "aws-sdk-mock": "^1.6.1",
