@@ -1,0 +1,6 @@
+.idea/
+lib/
+node_modules/
+
+.DS_store
+*draft.js
