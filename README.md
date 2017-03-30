@@ -15,6 +15,8 @@ then look at [ecs-deploy](https://github.com/fabfuel/ecs-deploy) project.
 
 ## Usage
 
+It requires same env vars as `aws-sdk`
+
 ```javascript
 const ser = require('simple-ecs-restart');
 
