@@ -1,3 +1,5 @@
+import {ls} from './ls';
+
 module.exports = {
-  a: 1
+  ls
 };
