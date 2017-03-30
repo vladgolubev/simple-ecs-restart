@@ -19,6 +19,6 @@ then look at [ecs-deploy](https://github.com/fabfuel/ecs-deploy) project.
 const ser = require('simple-ecs-restart');
 
 await ser.ls('us-east-1', 'dev');
-await ser.stop('us-east-1', 'dev', ''my-service');
-await ser.start('us-east-1', 'dev', ''my-service');
+await ser.stop('us-east-1', 'dev', 'my-service');
+await ser.start('us-east-1', 'dev', 'my-service');
 ```
