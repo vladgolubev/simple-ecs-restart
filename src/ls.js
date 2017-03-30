@@ -16,5 +16,5 @@ export async function ls(region = 'us-east-1', cluster = '', nextToken = '') {
     serviceArns.push(...await ls(region, cluster, recentNextToken));
   }
 
-  return serviceArns;
+  return serviceArns.sort();
 }

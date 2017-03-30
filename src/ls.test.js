@@ -17,6 +17,13 @@ it('should invoke listServices function', async() => {
   expect(services).toEqual(['1']);
 });
 
+it('should sort services in A-Z order', async() => {
+  AWS.mock('ECS', 'listServices', {serviceArns: ['2', '3', '1']});
+  const services = await ls();
+
+  expect(services).toEqual(['1', '2', '3']);
+});
+
 it('should invoke listServices again if nextToken is present', async() => {
   AWS.mock('ECS', 'listServices', (params, cb) => {
     if (params.nextToken) {
