@@ -3,4 +3,5 @@ coverage/
 lib/
 node_modules/
 
-draft.js
+.DS_store
+*draft.js
