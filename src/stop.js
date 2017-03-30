@@ -7,5 +7,7 @@ export async function stop(region = 'us-east-1', cluster = '', service = 'ß') {
     ecs = new ECS({region});
   }
 
-  return ecs.updateService({cluster, service, desiredCount: 0}).promise();
+  const {desiredCount, runningCount, pendingCount} = await ecs.updateService({cluster, service, desiredCount: 0}).promise();
+
+  return runningCount;
 }
