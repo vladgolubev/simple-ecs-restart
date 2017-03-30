@@ -7,4 +7,5 @@ src/
 .eslintignore
 .eslintrc
 wallaby.config.js
+*draft.js
 yarn.lock
