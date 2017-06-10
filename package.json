@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-arn-parser": "^1.0.0",
-    "aws-sdk": "^2.67.0",
+    "aws-sdk": "^2.34.0",
     "bluebird": "^3.5.0"
   },
   "devDependencies": {
