@@ -2,7 +2,7 @@ import AWS from 'aws-sdk-mock';
 
 import {stop} from './stop';
 
-beforeEach(() => {
+afterEach(() => {
   AWS.restore('ECS', 'updateService');
   AWS.restore('ECS', 'describeServices');
 });

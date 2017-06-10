@@ -20,6 +20,7 @@ It requires same env vars as `aws-sdk`
 ```javascript
 const ser = require('simple-ecs-restart');
 
+await ser.lsClusters('us-east-1');
 await ser.ls('us-east-1', 'dev');
 await ser.stop('us-east-1', 'dev', 'my-service');
 await ser.start('us-east-1', 'dev', 'my-service');

@@ -1,5 +1,5 @@
-import {ls} from './index';
+import lib from '.';
 
-it('should export ls function', () => {
-  expect(ls).toBeInstanceOf(Function);
+it('should export 4 functions', () => {
+  expect(Object.keys(lib)).toHaveLength(4);
 });
